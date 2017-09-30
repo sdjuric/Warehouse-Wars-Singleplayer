@@ -1,0 +1,153 @@
+/* General */
+
+h1{
+	color: #0074D9;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h2{
+	border: 0px;
+	color: #4EB1BA;
+	font-family: "Times New Roman", Times, serif;
+}
+
+td img{
+	height: 24px;
+	width: 24px;
+}
+
+body { 
+    background: url(backgrounds/ep_naturalblack.png) repeat 0 0;
+	/* Source: https://www.toptal.com/designers/subtlepatterns */
+}
+
+#currentScore, #currentTime, #currentStatus{
+	width: 90px;
+}
+
+#setupBoxes, #setupDimensions, #setupMonsters, #setupMegaMonsters{
+	width: 92px;
+}
+
+#emptyLogin, #emptyRegisterField, #emptyProfileField{
+	color: white;
+}
+
+/* Login page */
+
+#loginTable{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#highScores{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 38%;
+	margin-right: 38%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+	/* Source: https://www.toptal.com/designers/subtlepatterns */
+}
+
+/* Main Menu Page */
+
+#menuForm{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 38%;
+	margin-right: 38%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+/* Register Page */
+
+#registerForm{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 30%;
+	margin-right: 30%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+/* Profile Page */
+
+#profileForm{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 30%;
+	margin-right: 30%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#userPName, #userPPass, #confirmUserPPass, #pFirstName, #pLastName, #pEmail {
+	float: right;
+	clear: both;
+}
+
+/* Setup Page */
+
+#optionsForm{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#instructionsTable{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#legendTable{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+
+#userInterface{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#controlsTable{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#stage td{
+	border: 1px solid black;
+}
